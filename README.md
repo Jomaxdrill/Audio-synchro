@@ -5,7 +5,7 @@ i.e. The video of a scene and the audio taken from the microphones.
 
 The final objective is to replace a better quality audio file with the one that exists in a video.
 
-----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 What is necessary
 
 This project has been developed so far on MatLab, the source code is to run in MatLab, therefore you will need:
@@ -22,14 +22,16 @@ documentation).
 -Restrictions: 
 	- The track to synchronize has to be longer than the original track, this on the beginning.
 	- None of the tracks should have the name "synchro.wav", if so, it will be overwritten after the process.
-----------------------------------------------------------------------------------------------------------------------------------
+	
+-----------------------------------------------------------------------------------------------------------------------------
 Study case
 
 In this case, the tracks were recorded in the "Elaborazione dell'audio digitale" lesson ,
 by a microphone(one to modify and replace) and video screen recorder.
 Signal process tecniques as cross correlation were used to correct the disalignment and 
 noise dead times.Also to control the outcome drift.
-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------
 Installing 
 -To set up this piece of software is necessary just to put the sourcecode files along with the WAV files in a folder on the computer
   and then open MatLab to add this folder to MatLab path.
@@ -78,6 +80,7 @@ You will have a project folder in which you can see the 3 codesources on .m form
 In order to run the project open the file called "Audiosync.m" only the last two WAV files are necessary, their name is already 
 preinserted so by just running the matlab code you will obtain the synchro.wav file. It's possible now to compare them with the
 original track. Audacity is recommended.
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
 
