@@ -52,7 +52,7 @@ to make it work properly:
 	    downSm = 1; %Downsampling rate, 1 = no downsampling.
 
 	- 1: no downsampling.	
-  - 2: half of the original frequency.
+  	- 2: half of the original frequency.
 	- And so on...
   
 	More than 4 on this variable however is not recommended since the audio is often at 44100 Hz reducing it more than 4 times
